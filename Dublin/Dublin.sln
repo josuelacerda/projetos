@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{A5ABB809-9196-4A02-BD17-562EF4D362B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{BB04A02B-F7FC-4779-B406-77A9C139773C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{53EF163A-B12E-4013-A595-3A5E3D8EFC53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dublin.Infra.Data", "Dublin.Infra.Data\Dublin.Infra.Data.csproj", "{92AA22A1-A1E2-4A40-BF18-BDE7D1EBB74A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{FF387A3E-8623-45D5-9886-D818F7D28D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dublin.Domain", "Dublin.Domain\Dublin.Domain.csproj", "{DA7E73DA-4E0B-4CE3-B775-F5C962343732}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92AA22A1-A1E2-4A40-BF18-BDE7D1EBB74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AA22A1-A1E2-4A40-BF18-BDE7D1EBB74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AA22A1-A1E2-4A40-BF18-BDE7D1EBB74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AA22A1-A1E2-4A40-BF18-BDE7D1EBB74A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7E73DA-4E0B-4CE3-B775-F5C962343732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7E73DA-4E0B-4CE3-B775-F5C962343732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7E73DA-4E0B-4CE3-B775-F5C962343732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7E73DA-4E0B-4CE3-B775-F5C962343732}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB04A02B-F7FC-4779-B406-77A9C139773C} = {A5ABB809-9196-4A02-BD17-562EF4D362B1}
+		{53EF163A-B12E-4013-A595-3A5E3D8EFC53} = {A5ABB809-9196-4A02-BD17-562EF4D362B1}
+		{92AA22A1-A1E2-4A40-BF18-BDE7D1EBB74A} = {BB04A02B-F7FC-4779-B406-77A9C139773C}
+		{DA7E73DA-4E0B-4CE3-B775-F5C962343732} = {FF387A3E-8623-45D5-9886-D818F7D28D12}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64B911C2-4E77-4596-8BD7-9C718AE2B400}
+	EndGlobalSection
+EndGlobal
